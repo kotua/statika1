@@ -1,3 +1,8 @@
+/(.*) /https://%{HTTP_HOST}/$1 [R=301,L]
+/(.*) /robots_%{HTTP_HOST}.txt [NC,L]
+/ru /page22076662.html [NC]
+
+
 /ktp-ru /page23078570.html
 /trans-ru /page22593894.html
 
